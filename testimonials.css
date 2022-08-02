@@ -4,7 +4,7 @@
 }
 
 body {
-    background: rgba(173, 228, 230, 0.13);
+    background: rgba(199, 225, 243, 0.445);
     font-family: 'Roboto Flex', sans-serif;
 }
 
@@ -32,11 +32,17 @@ h2 {
     font-size: 1.29rem;
     line-height: 25px;
     margin-bottom: 20px;
+    font-weight: 700;
 }
 
 .white-par {
     line-height: 23px;
     color: #fff;
+}
+
+.black-par {
+    line-height: 23px;
+    color: #000;
 }
 
 .white {
@@ -49,19 +55,12 @@ h2 {
     color: rgba(#aaa);
 }
 
+.dark {
+    color: #000;
+}
+
 /* ----------------------------------- */
 
-
-
-/* First Box - Daniel Clifford */
-
-.daniel-clifford {
-    background: rgba(101, 12, 184, 0.753);
-    color: #fff;
-    border-radius: 10px;
-    padding: 30px;
-    margin-bottom: 20px;
-}
 
 .box {
     display: flex;
@@ -85,10 +84,39 @@ h2 {
 
 
 
+
+/* First Box - Daniel Clifford */
+
+.daniel-clifford {
+    background: rgba(101, 12, 184, 0.753);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+/* ----------------------------------- */
+
+
+
 /* Second Box - Jonathan Walter */
 
 .jonathan-walter {
     background: rgb(104, 104, 141);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+/* ----------------------------------- */
+
+
+
+/* Third Box - Jeanette Harmon */
+
+.jeanette-harmon {
+    background: #fff;
     color: #fff;
     border-radius: 10px;
     padding: 30px;
