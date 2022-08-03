@@ -34,6 +34,21 @@ body {
     grid-area: one;
 }
 
+.jonathan-walter:nth-child(2) {
+    grid-area: two;
+}
+
+.jeanette-harmon:nth-child(3) {
+    grid-area: three;
+}
+
+.patrick-abrams:nth-child(4) {
+    grid-area: four;
+}
+
+.kira-whittle:nth-child(5) {
+    grid-area: five;
+}
 
 /* Typography */
 
