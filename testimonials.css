@@ -201,29 +201,35 @@ h2 {
 
 .daniel-clifford {
     grid-area: dc;
-    box-shadow: 1px 1px 10px 1px #000;
+    box-shadow: 5px 5px 15px -10px #000;
 }
 
 .jonathan-walter {
     grid-area: jw;
+    box-shadow: 5px 5px 15px -10px #000;
 }
 
 .jeanette-harmon {
     grid-area: jh;
+    box-shadow: 5px 5px 15px -10px #000;
 }
 
 .patrick-abrams {
     grid-area: pa;
+    box-shadow: 5px 5px 15px -10px #000;
 }
 
 .kira-whittle {
     grid-area: kw;
+    box-shadow: 5px 5px 15px -10px #000;
 }
 
 /* At small screens */
 
 @media (max-width: 500px) {
-    .container {    
+    .container {
+        padding: 10px 15px;    
+        width: 100%;
         display: grid;
         gap: 1.5rem;
         grid-template-columns: repeat(1, 1fr);
@@ -241,6 +247,7 @@ h2 {
 @media (min-width: 501px) and (max-width: 950px) {
     
     .container {
+        padding: 10px 15px;
         width: 100%;
         display: grid;
         gap: 1.5rem;
@@ -260,7 +267,7 @@ h2 {
 @media (min-width: 951px) {
     
     .container {
-        padding: 10px;
+        padding: 10px 15px;
         width: 100%;
         display: grid;
         gap: 1.5rem;
