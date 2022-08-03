@@ -217,5 +217,17 @@ h2 {
     .jonathan-walter {
         grid-area: jw;
     }
+
+    .jeanette-harmon {
+        grid-area: jh;
+    }
+
+    .patrick-abrams {
+        grid-area: pa;
+    }
+
+    .kira-whittle {
+        grid-area: kw;
+    }
 }
 
