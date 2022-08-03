@@ -29,7 +29,7 @@ body {
         'four'
         'five';
 }
-
+/* 
 .daniel-clifford:nth-child(1) {
     grid-area: one;
 }
@@ -48,7 +48,7 @@ body {
 
 .kira-whittle:nth-child(5) {
     grid-area: five;
-}
+} */
 
 /* Typography */
 
@@ -205,5 +205,22 @@ h2 {
 
 @media (min-width: 50em) {
     
+.container {
+    /* margin-top: 100px;
+    width: min(95%, 70rem); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas: 
+        'one'
+        'two'
+        'three'
+        'four'
+        'five';
+}
 }
 
