@@ -201,6 +201,7 @@ h2 {
 
 .daniel-clifford {
     grid-area: dc;
+    box-shadow: 1px 1px 10px 1px #000;
 }
 
 .jonathan-walter {
@@ -259,6 +260,7 @@ h2 {
 @media (min-width: 951px) {
     
     .container {
+        padding: 10px;
         width: 100%;
         display: grid;
         gap: 1.5rem;
