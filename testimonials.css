@@ -203,12 +203,19 @@ h2 {
     .container {
         display: grid;
         gap: 1.5rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-template-areas: 
-            'one'
-            'two'
-            'three'
-            'four'
-            'five';
+            "dc dc jw kw"
+            "jh pa pa kw";
+    }
+
+    .daniel-clifford {
+        grid-area: dc;
+    }
+
+    .jonathan-walter {
+        grid-area: jw;
     }
 }
 
