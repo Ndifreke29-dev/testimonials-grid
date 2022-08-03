@@ -8,13 +8,14 @@ body {
     font-family: 'Roboto Flex', sans-serif;
     width: 100vw;
     height: 100vh;
+    padding: 2em;
 }
 
 
 
 .container {
     /* margin-top: 100px; */
-    width: min(95%, 70rem); 
+    width: min(100%, 70rem); 
     /* position: absolute;
     top: 50%;
     left: 50%;
@@ -94,7 +95,7 @@ h2 {
 /* Image set 1 */
 
 .img-box {
-    width: 2.5rem;
+    width: 1.5rem;
     border-radius: 50%;
     border: 2px solid #fff;
     margin-right: 20px;
@@ -114,7 +115,7 @@ h2 {
 /* Image set 2 */
 
 .img-box2 {
-    width: 2.5rem;
+    width: 1.5rem;
     border-radius: 50%;
     border: 2px solid #000;
     margin-right: 20px;
@@ -198,9 +199,10 @@ h2 {
 
 /* At large screen size */
 
-@media (min-width: 50em) {
+@media (min-width: 30em) {
     
     .container {
+        width: 100%;
         display: grid;
         gap: 1.5rem;
         grid-template-columns: repeat(4, 1fr);
@@ -231,3 +233,22 @@ h2 {
     }
 }
 
+
+/* At medium screens */
+
+@media (min-width: 10em) {
+    
+    .container {
+        width: 100%;
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            "dc dc dc dc"
+            "jw jw kw kw"
+            "jh jh kw kw"
+            "pa pa pa pa";
+    }
+
+}
