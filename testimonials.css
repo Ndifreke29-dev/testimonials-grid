@@ -13,6 +13,7 @@ body {
 
 
 .container {
+    /* margin-top: 100px; */
     width: min(95%, 70rem); 
     /* position: absolute;
     top: 50%;
