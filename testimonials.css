@@ -30,6 +30,9 @@ body {
         'five';
 }
 
+.daniel-clifford:nth-child(1) {
+    grid-area: one;
+}
 
 
 /* Typography */
